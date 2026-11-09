@@ -1,0 +1,39 @@
+/* General Page Styles */
+/* 
+    Another note because I changed the color values in
+    the previous step 
+*/
+body {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #F7F1E3; /* Default Gray */
+}
+
+/* SHARED STYLES: All boxes get these rules */
+.swatch {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #3a3a3a; /* Default Border */
+    border-radius: 8px;
+    color: white; /* Default text color inside boxes */
+}
+
+/* UNIQUE STYLES: Update the HEX codes below */
+
+/* 1. Primary Color */
+.primary {
+    background-color: #A0522D; /* CHANGE THIS */
+}
+
+/* 2. Accent Color */
+.accent {
+    background-color: #D9A441; /* CHANGE THIS */
+}
+
+/* 3. Text/Light Color */
+.text {
+    background-color: #3B2A20; /* CHANGE THIS */
+    color: #f4f4f4; /* Light text for dark background */
+}
